@@ -25,7 +25,7 @@ public class Admin extends AppCompatActivity {
     Spinner horoscopo;
     EditText amor, salud, dinero;
     Button ejecutar;
-    TextView btnSalir;
+    TextView btnSalir, btnBorrar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +42,14 @@ public class Admin extends AppCompatActivity {
         horoscopo = findViewById(R.id.spinner_zodiaco);
         ejecutar = findViewById(R.id.btnEjecutar);
         btnSalir = findViewById(R.id.btnSalir);
+        btnBorrar = findViewById(R.id.btnBorrarCampos);
+
+        btnBorrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                borrar();
+            }
+        });
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(Admin.this, R.array.zodiaco, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);

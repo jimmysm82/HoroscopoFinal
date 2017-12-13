@@ -29,6 +29,7 @@
     <string name="eliminar">Eliminar</string>
     <string name="listar">Listar</string>
     <string name="ejecutar">Ejecutar</string>
+    <string name="borrar">Limpiar campos</string>
 
     <string-array name="zodiaco">
         <item>Acuario</item>
