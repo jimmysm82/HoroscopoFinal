@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorFondo"
+    tools:context="com.example.warbl.horoscopofinal.Login">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/zodiaco2"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/titulo"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorNaranjo"
+        />
+
+    <EditText
+        android:id="@+id/correo_usuario"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="@string/txt_usuario"
+        android:textAlignment="center"
+        android:textColor="@color/colorCeleste"
+        />
+
+    <EditText
+        android:id="@+id/password_usuario"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:hint="@string/txt_pass"
+        android:textAlignment="center"
+        android:textColor="@color/colorCeleste"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/entrar"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorVerde"
+        android:textColor="@color/colorFondo"
+        android:onClick="comprobarUserPass"
+        />
+
+    <TextView
+        android:id="@+id/txt_registrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_registrase"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorNaranjo"
+        />
+
+</LinearLayout>

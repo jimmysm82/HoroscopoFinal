@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.warbl.horoscopofinal.Admin">
+
+    <RadioGroup
+        android:id="@+id/btnGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <RadioButton
+            android:id="@+id/btnInsertar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insertar"
+            android:textSize="16dp"
+            />
+
+        <RadioButton
+            android:id="@+id/btnModificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modificar"
+            android:textSize="16dp"
+            />
+
+        <RadioButton
+            android:id="@+id/btnEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eliminar"
+            android:textSize="16dp"
+            android:layout_marginTop="-64dp"
+            android:layout_marginLeft="150dp"
+            />
+
+        <RadioButton
+            android:id="@+id/btnListar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listar"
+            android:textSize="16dp"
+            android:layout_marginLeft="150dp"
+            />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinner_zodiaco"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+    </Spinner>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+
+            <EditText
+                android:id="@+id/amor"
+                android:layout_marginTop="30dp"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:hint="Amor"
+                />
+
+            <EditText
+                android:id="@+id/dinero"
+                android:layout_marginTop="30dp"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:hint="Dinero"
+                />
+
+                <EditText
+                    android:id="@+id/salud"
+                android:layout_marginTop="30dp"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:hint="Salud"
+            />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnEjecutar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="@string/ejecutar"
+        android:background="@color/colorNaranjo"
+        android:textColor="@color/colorFondo"
+        />
+
+    <TextView
+        android:id="@+id/btnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salir"
+        android:layout_gravity="right"
+        android:layout_marginTop="-30dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorRojo"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

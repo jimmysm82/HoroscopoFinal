@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorFondo"
+    tools:context="com.example.warbl.horoscopofinal.Piscis">
+
+    <TextView
+        android:id="@+id/btn_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/volver"
+        android:layout_gravity="end"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorRojo"
+        />
+
+    <ImageView
+        android:id="@+id/logo_piscis"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/piscis2"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/fechaNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Fecha Nacimiento"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+        <LinearLayout
+            android:id="@+id/contenedorLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/txt_amor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/amor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorNaranjo"
+                />
+
+            <TextView
+                android:id="@+id/texto_amor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="14sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorNaranjo"
+                />
+
+            <TextView
+                android:id="@+id/txt_salud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/salud"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorVerde"
+                />
+
+            <TextView
+                android:id="@+id/texto_salud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="14sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorVerde"
+                />
+
+            <TextView
+                android:id="@+id/txt_dinero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dinero"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/colorCeleste"
+                />
+
+            <TextView
+                android:id="@+id/texto_dinero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="14sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorCeleste"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

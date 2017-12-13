@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Horóscopo Final 2017</string>
+    <string name="volver">Volver al Menu Principal</string>
+    <string name="bienvenido">Bienvenido/a:</string>
+    <string name="txt_predicciones">Tus Predicciones para el 2017:</string>
+    <string name="amor">Amor</string>
+    <string name="salud">Salud</string>
+    <string name="dinero">Dinero</string>
+    <string name="salir">Salir</string>
+    <string name="entrar">Entrar</string>
+    <string name="titulo">Horóscopo 2017</string>
+    <string name="txt_usuario">Correo</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_apellido">Apellido</string>
+    <string name="txt_pass">Contraseña</string>
+    <string name="txt_registrase">Registrarse</string>
+    <string name="txt_volver">Regresar al inicio</string>
+    <string name="txt_dias">Dia:</string>
+    <string name="txt_mes">Mes:</string>
+    <string name="txt_anio">Año:</string>
+    <string name="txt_fechan">Ingrese su fecha de nacimiento</string>
+    <string name="txt_Prediccion"> Ver su Horoscopo </string>
+    <string name="txt_Salir"> Salir </string>
+    <string name="txt_nacimiento">Su Fecha de Nacimiento</string>
+    <string name="txt_cancelar">Eliminar Cuenta</string>
+    <string name="txt_eliminar">Eliminar Cuenta</string>
+    <string name="insertar">Insertar</string>
+    <string name="modificar">Modificar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="listar">Listar</string>
+    <string name="ejecutar">Ejecutar</string>
+
+    <string-array name="zodiaco">
+        <item>Acuario</item>
+        <item>Aries</item>
+        <item>Cancer</item>
+        <item>Capricorio</item>
+        <item>Escorpion</item>
+        <item>Geminis</item>
+        <item>Leo</item>
+        <item>Libra</item>
+        <item>Piscis</item>
+        <item>Sagitario</item>
+        <item>Tauro</item>
+        <item>Virgo</item>
+    </string-array>
+
+
+</resources>
